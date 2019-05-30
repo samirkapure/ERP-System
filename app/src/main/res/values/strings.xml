@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">EasyEd</string>
+
+
+    <string-array name="class_array" >
+        <item>-SELECT DIVISION-</item>
+        <item>TE COMP 1</item>
+        <item>TE COMP 2</item>
+        <item>ADMIN</item>
+    </string-array>
+    <string-array name="div_array" >
+        <item>-SELECT DIVISION-</item>
+        <item>TE COMP 1</item>
+        <item>TE COMP 2</item>
+    </string-array>
+    <string-array name="month_array">
+        <item>-SELECT MONTH-</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+</resources>

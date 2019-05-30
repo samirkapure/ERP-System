@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feedback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/xx"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   FEEDBACK"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/backbtnfd"
+            android:layout_width="56dp"
+            android:layout_height="37dp"
+            android:background="@color/colorPrimary"
+            android:text="Back"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Rating on scale of 5"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:text="1-poor 2-Average 3-Good 4-Very good 5-Excellent"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <TextView
+            android:id="@+id/tvrollnofd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Roll No"
+            android:textSize="18dp"
+            android:textColorHint="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Classrooms"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <RatingBar
+            android:id="@+id/rbclassrooms"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:numStars="5"
+            android:progressTint="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Labs"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <RatingBar
+            android:id="@+id/rblabs"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:numStars="5"
+            android:progressTint="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Corridors"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <RatingBar
+            android:id="@+id/rbcorridors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:progressTint="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Washrooms"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <RatingBar
+            android:id="@+id/rbwashrooms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:progressTint="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/tv12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Library"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <RatingBar
+            android:id="@+id/rblibrary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:progressTint="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/tv13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Canteen"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <RatingBar
+            android:id="@+id/rbcanteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:progressTint="@android:color/background_dark" />
+
+        <Button
+            android:id="@+id/btnsubmitfeedback"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:background="@color/design_default_color_primary_dark"
+            android:text="Submit Feedback"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>
